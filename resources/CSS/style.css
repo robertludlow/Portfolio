@@ -1,0 +1,218 @@
+html {
+	background-color: black;
+	color: lightslategray;
+}
+
+html, body{
+	margin: 0 auto;
+}
+
+header{
+	border-bottom:  1px solid steelblue;
+	display: flex;
+	z-index: 1;
+	justify-content: space-between;
+	width:  100%;
+	align-items: flex-end;
+	height: 3rem;
+	margin-top: 0;
+	padding-top: 0;
+	color: whitesmoke;
+	position: fixed;
+	background-color: black;
+}
+
+header h1{
+	margin: 0 0 0 .74rem;
+	font-size:  2rem;
+}
+
+header a{
+  color: whitesmoke;
+  margin: .75rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+main{
+	text-align: center;
+	padding-top: 7rem;
+}
+
+#about{
+	display: grid;
+	grid-template-columns: 1fr 1fr;;
+
+}
+
+#about img{
+	height: 18.75rem;
+	width: auto;
+	border-radius: 5%;
+	opacity: 85%;
+}
+
+h2{
+	color: lightsteelblue;
+	text-decoration: underline solid steelblue;
+	text-decoration-thickness: 2px;
+}
+
+h3 {
+	color: whitesmoke;
+}
+
+#about-wrapper {
+	width: 31.25rem;
+	align-self: center;
+	justify-self: flex-end;
+	margin-right: 3rem;
+}
+
+#about-wrapper p{
+	text-align: left;
+}
+
+.wrapper {
+	width: 18.75rem;
+	height: 18.75rem;
+	border-radius: 5px;
+}
+
+.wrapper a {
+	color:  steelblue;
+;
+}
+
+#projects {
+	margin-top: 5rem;
+	display: grid;
+	justify-content: center;
+
+}
+
+#project-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-gap: 5rem;
+}
+
+.project {
+	width: 18.75rem;
+	height: auto;
+	overflow: hidden;
+}
+
+.project p {
+	text-align: left;
+}
+
+#projects img {
+	height:  18.75rem;
+	width:  18.75rem;
+	border-radius: 5px;
+	opacity: .75;
+	z-index:  1;
+}
+ span{
+ 	color: cyan;
+ 	font-weight: bold;
+ 	opacity: .85;
+ }
+
+#eightball.wrapper {
+	grid-column: 1 / 2;
+	background-image: url("../images/8-ball.jpg");
+	background-size: 18.75rem 18.75rem;
+	opacity: .75;
+	transition-duration: .5s;
+}
+
+#eightball.wrapper p{
+	padding: .625rem 0 3.25rem .625rem;
+}
+
+#eightball.wrapper:hover {
+	opacity: 1;
+	color: whitesmoke;
+}
+
+#excursion.wrapper {
+	grid-column: 2 / 3;
+	background-image:  url('../images/excursion.jpg');
+	background-size: cover;
+	opacity: .75;
+	transition-duration: .5s;
+}
+
+#excursion.wrapper p {
+	padding: .625rem 0 4.425rem .625rem;
+
+}
+
+#excursion.wrapper:hover {
+	opacity: 1;
+	color: whitesmoke;
+}
+
+#teacozy.wrapper {
+	grid-column: 3 / -1;
+	background-image: url('../images/teacozy.jpg');
+	background-size: cover;
+	opacity:  .75;
+	transition-duration: .5s;
+}
+
+#teacozy.wrapper p {
+	padding: .625rem .25rem 4.50rem .625rem;
+}
+#teacozy.wrapper:hover {
+	opacity: 1;
+	color: white;
+}
+
+.button {
+	transition-duration: .75s;
+	background-color: transparent;
+	border: none;
+	border-radius: 5px;
+	z-index: 1;
+	
+}
+
+.button a{
+	text-decoration: none;
+	color: whitesmoke;
+	font-size: 1rem;
+}
+
+.button:hover {
+  background-color: chocolate;
+  border-radius: 5px;
+}
+
+
+#skills{
+	margin-top: 5rem;
+}
+#skills-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+#skills-container{
+	border:  2px lightsteelblue solid;
+	border-radius:  5px;
+	background-color: white;
+	width: 25rem;
+}
+
+#skills-container img {
+	height: 3rem;
+}
+
+footer span{
+	font-style: italic;
+	color: lightsteelblue;
+}
