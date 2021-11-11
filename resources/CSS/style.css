@@ -96,6 +96,7 @@ h3 {
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr;
 	grid-gap: 5rem;
+	
 }
 
 .project {
@@ -205,7 +206,7 @@ h3 {
 	border:  2px lightsteelblue solid;
 	border-radius:  5px;
 	background-color: white;
-	width: 25rem;
+	width: 28rem;
 }
 
 #skills-container img {
@@ -215,4 +216,8 @@ h3 {
 footer span{
 	font-style: italic;
 	color: lightsteelblue;
+}
+
+@media and screen only and (max-width: 925px){
+	
 }
