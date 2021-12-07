@@ -213,6 +213,10 @@ h3 {
 	height: 3rem;
 }
 
+#skills-container a {
+	text-decoration: none;
+}
+
 footer {
 	font-style: italic;
 	color: lightsteelblue;
