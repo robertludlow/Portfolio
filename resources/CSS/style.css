@@ -88,7 +88,11 @@ h3 {
 	margin-top: 5rem;
 	display: grid;
 	justify-content: center;
+}
 
+#projects a {
+	color: steelblue;
+	text-decoration: none;
 }
 
 #project-wrapper {
@@ -139,6 +143,11 @@ h3 {
 	color: whitesmoke;
 }
 
+#eightball.wrapper:hover .button {
+	background-color: chocolate;
+	border-radius: 5px;
+}
+
 #excursion.wrapper {
 	grid-column: 2 / 3;
 	background-image:  url('../images/excursion.jpg');
@@ -157,6 +166,12 @@ h3 {
 	color: whitesmoke;
 }
 
+#excursion.wrapper:hover .button{
+	background-color: chocolate;
+	border-radius: 5px;
+}
+
+
 #teacozy.wrapper {
 	grid-column: 3 / -1;
 	background-image: url('../images/teacozy.jpg');
@@ -173,6 +188,11 @@ h3 {
 	color: white;
 }
 
+#teacozy.wrapper:hover .button{
+	background-color: chocolate;
+	border-radius: 5px;
+}
+
 .button {
 	transition-duration: .75s;
 	background-color: transparent;
@@ -186,11 +206,6 @@ h3 {
 	text-decoration: none;
 	color: whitesmoke;
 	font-size: 1rem;
-}
-
-.button:hover {
-  background-color: chocolate;
-  border-radius: 5px;
 }
 
 
