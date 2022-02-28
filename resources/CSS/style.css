@@ -221,7 +221,7 @@ h3 {
 	border:  2px lightsteelblue solid;
 	border-radius:  5px;
 	background-color: white;
-	width: 31rem;
+	width: 34rem;
 }
 
 #skills-container img {
@@ -232,9 +232,23 @@ h3 {
 	text-decoration: none;
 }
 
+span {
+	color:  whitesmoke;
+}
+
+span a {
+	text-decoration: none;
+	color: whitesmoke;
+	font-weight: bold;
+}
+
+.skills_long {
+	text-align:  left;
+}
+
 footer {
 	font-style: italic;
-	color: lightsteelblue;
+	color: darkcyan;
 }
 
 @media and screen only and (max-width: 925px){
