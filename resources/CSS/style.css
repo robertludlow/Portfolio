@@ -255,6 +255,9 @@ footer {
 	color: darkcyan;
 }
 
-@media and screen only and (max-width: 925px){
-	
+@media and screen only and (max-width: 500px){
+	#about-wrapper {
+		width:  400px;
+		background-image:  url("../images/orange-bottle-macro.jpg");
+	}
 }
